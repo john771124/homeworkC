@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <meta charset = "UTF-8">
+        <title>作業C</title>
+        
+    </head>    
+        
+    <script>
+        function Button_click(){
+                var height=100;
+                var i,j=0;
+                var s = document.getElementById("s");
+                
+            for(i=0;i<5;i++)
+            {
+                height /= 2;
+                
+            }
+                
+                
+            
+            s.innerHTML = height;
+        }
+    </script>
+    <body>
+     
+    原始高度:100公尺<button onclick="Button_click()">落地五次後彈起高度:</button>
+    
+    <p id = "s" >公尺</p>
+        
+        
+    </body>
+    
+</html>
